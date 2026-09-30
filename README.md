@@ -3,6 +3,7 @@
 [![React Version](https://img.shields.io/badge/React-19-blue.svg)](https://react.dev/)
 [![Vite Version](https://img.shields.io/badge/Vite-8-purple.svg)](https://vitejs.dev/)
 [![React Router](https://img.shields.io/badge/React_Router-v7-red.svg)](https://reactrouter.com/)
+[![CI](https://github.com/usmanghani1133/hotel-managemenet-system/actions/workflows/ci.yml/badge.svg)](https://github.com/usmanghani1133/hotel-managemenet-system/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A modern, comprehensive **Hotel Management System** designed to streamline and automate day-to-day hospitality operations. From front desk check-in/check-out to room reservations, guest relationship management, housekeeping, billing, restaurant POS, inventory, staff management, and financial analytics, **HotelFlow** delivers an end-to-end property management system (PMS) and hotel administration software suite.

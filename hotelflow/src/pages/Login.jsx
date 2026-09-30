@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { Buildings, Eye, EyeSlash, ArrowRight } from '@phosphor-icons/react';
 
 export default function Login() {
@@ -168,7 +168,7 @@ export default function Login() {
 
           <p style={{ textAlign: 'center', marginTop: 'var(--space-6)', fontSize: 'var(--text-xs)', color: 'var(--color-neutral-400)' }}>
             Back to{' '}
-            <a href="/" style={{ color: 'var(--color-primary-600)' }}>hotelflow.io</a>
+            <Link to="/" style={{ color: 'var(--color-primary-600)' }}>hotelflow.io</Link>
           </p>
         </div>
       </div>

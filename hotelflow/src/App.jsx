@@ -64,9 +64,11 @@ function AppShell() {
 }
 
 function App() {
+  const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/';
+
   return (
     <AppProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <Routes>
           {/* Public routes */}
           <Route path="/" element={<Landing />} />
